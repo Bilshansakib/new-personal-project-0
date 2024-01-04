@@ -4,6 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .main-container {
+      height: 100vh;
+      background-color: bisque;
+    }
+    .flag-container {
+      height: 250px;
+      width: 500px;
+      background-color: green ;
+      position: relative;
+
+    }
+    .flag-circle {
+      height: 130px;
+      width: 130px;
+      background-color: red;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 100%;
+
+    }
+
     table {
       border-collapse: collapse;
       width: 300px;
@@ -58,6 +85,14 @@
       <!-- Add more rows as needed -->
     </tbody>
   </table>
+  <section class="main-container">
+    <div class="flag-container">
+      <div class="flag-circle">
+
+      </div>
+      
+    </div>
+  </section>
 
 </body>
 </html>
